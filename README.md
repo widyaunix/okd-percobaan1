@@ -60,3 +60,20 @@ To login as administrator:
     oc login -u system:admin     
 ```
 
+## Usefull command
+```
+./oc cluster --help
+./oc cluster status
+```
+The status is:
+```
+Web console URL: https://127.0.0.1:8443/console/
+
+Config is at host directory 
+Volumes are at host directory 
+Persistent volumes are at host directory /opt/openshift-origin-server-v3.11.0-0cbc58b-linux-64bit/openshift.local.clusterup/openshift.local.pv
+Data will be discarded when cluster is destroyed
+```
+```
+./oc cluster down  
+```
